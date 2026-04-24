@@ -7,6 +7,7 @@ import Venue from './components/Venue';
 import Schedule from './components/Schedule';
 import Footer from './components/Footer';
 import WelcomeGate from './components/WelcomeGate';
+import MusicPlayer from './components/MusicPlayer';
 
 function App() {
   const [isOpened, setIsOpened] = useState(false);
@@ -14,6 +15,8 @@ function App() {
   return (
     <div className="min-h-screen bg-[#FFF8F0] text-[#4E342E] overflow-x-hidden">
       {!isOpened && <WelcomeGate onOpen={() => setIsOpened(true)} />}
+
+      <MusicPlayer isOpened={isOpened} />
 
       <main className={!isOpened ? 'h-screen overflow-hidden' : ''}>
         <Hero />

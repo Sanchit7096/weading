@@ -52,17 +52,17 @@ const Footer = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left max-w-lg mx-auto">
                         <div>
-                            <p className="text-xs font-serif uppercase tracking-wider text-[#A67C00] mb-2">Groom's Side</p>
-                            <p className="text-lg font-serif text-[#3E2723]">Family of Late Bhaskar Sahu</p>
+                            <p className="text-xs font-serif uppercase tracking-wider text-[#A67C00] mb-2">Bride's Father</p>
+                            <p className="text-lg font-serif text-[#3E2723]">Sri Dinabandhu Sahu</p>
                             <div className="flex items-center gap-2 text-sm text-[#B71C1C]/70 mt-1">
                                 <Phone size={14} />
                                 <span>+91 98981 09690</span>
                             </div>
                         </div>
                         <div>
-                            <p className="text-xs font-serif uppercase tracking-wider text-[#A67C00] mb-2">Bride's Father</p>
-                            <p className="text-lg font-serif text-[#3E2723]">Sri Dinabandhu Sahu</p>
-                            <div className="flex items-center gap-2 text-sm text-[#B71C1C]/70 mt-1 text-right md:text-left justify-end md:justify-start">
+                            <p className="text-xs font-serif uppercase tracking-wider text-[#A67C00] mb-2">Bride's Brother </p>
+                            <p className="text-lg font-serif text-[#3E2723]">Paresh Sahu</p>
+                            <div className="flex items-center gap-2 text-sm text-[#B71C1C]/70 mt-1">
                                 <Phone size={14} />
                                 <span>+91 85115 73108</span>
                             </div>

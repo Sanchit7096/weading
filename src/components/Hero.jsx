@@ -14,7 +14,7 @@ const Hero = () => {
             style={{ backgroundImage: `url(${weddingBg})` }}
         >
             {/* Background Overlay for better readability */}
-            <div className="absolute inset-0 bg-[#FFF8F0]/70 backdrop-blur-[2px]" />
+            <div className="absolute inset-0 bg-[#FFF8F0]/40 md:bg-[#FFF8F0]/70 backdrop-blur-[1px] md:backdrop-blur-[2px]" />
 
             {/* --- Background Decorations (Top Corners) --- */}
             <div className="absolute top-0 left-0 w-[40%] md:w-[25%] opacity-40 z-0 pointer-events-none -rotate-12 translate-x-[-10%] translate-y-[-10%] animate-float">
@@ -29,11 +29,11 @@ const Hero = () => {
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.5, ease: "easeOut" }}
-                className="relative z-10 w-[95%] max-w-[1000px] min-h-[85vh] flex flex-col items-center justify-center shadow-2xl border-x-8 border-t-8 border-[#D4AF37]/20 paper-texture"
+                className="relative z-10 w-[90%] md:w-[95%] max-w-[1000px] min-h-[85vh] flex flex-col items-center justify-center shadow-2xl border-x-4 md:border-x-8 border-t-4 md:border-t-8 border-[#D4AF37]/30 backdrop-blur-sm paper-texture"
                 style={{
-                    backgroundColor: '#FFF8F0',
+                    backgroundColor: 'rgba(255, 248, 240, 0.85)',
                     borderRadius: '500px 500px 0 0',
-                    paddingTop: '10vh',
+                    paddingTop: '8vh',
                 }}
             >
                 {/* Content Container */}
@@ -41,6 +41,17 @@ const Hero = () => {
                     <p className="text-[10px] md:text-sm tracking-[0.5em] font-serif uppercase text-[#4E342E]/60 mb-8">
                         Together with their families
                     </p>
+
+                    <motion.div 
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ delay: 1, duration: 1 }}
+                        className="mb-10"
+                    >
+                        <span className="px-6 py-2 border border-[#D4AF37] text-[#D4AF37] font-serif text-xs md:text-sm tracking-[0.4em] uppercase rounded-full">
+                            Save the Date
+                        </span>
+                    </motion.div>
 
                     {/* Top Heart Trio */}
                     <div className="flex justify-center gap-2 mb-6">
@@ -97,14 +108,6 @@ const Hero = () => {
                 <img src={bottomFlower} className="w-full h-auto opacity-90 hue-rotate-[340deg]" alt="" style={{ mixBlendMode: 'multiply' }} />
             </div>
 
-            {/* Play Button */}
-            <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="absolute bottom-10 right-10 z-40 w-14 h-14 rounded-full border border-[#D4AF37] bg-white/80 backdrop-blur-md flex items-center justify-center text-[#D4AF37] shadow-2xl"
-            >
-                <Play size={24} fill="currentColor" className="ml-1" />
-            </motion.button>
 
         </section>
     );
