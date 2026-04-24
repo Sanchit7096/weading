@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { differenceInDays, differenceInHours, differenceInMinutes, differenceInSeconds } from 'date-fns';
 import { motion } from 'framer-motion';
-import coupleImg from '../assets/DSC_1546.JPG.jpeg';
+import coupleImg from '../assets/DSC_1515.JPG.jpeg';
 
 const Countdown = () => {
     const targetDate = new Date('2026-05-06T00:00:00');

@@ -5,10 +5,8 @@ import img1 from '../assets/DSC_1222.JPG.jpeg';
 import img2 from '../assets/DSC_1401.JPG.jpeg';
 import img3 from '../assets/DSC_1454.JPG.jpeg';
 import img4 from '../assets/DSC_1515.JPG.jpeg';
-import img5 from '../assets/DSC_1522.JPG.jpeg';
-import img6 from '../assets/DSC_1546.JPG.jpeg';
 
-const images = [img1, img2, img3, img4, img5, img6];
+const images = [img1, img2, img3, img4];
 
 const Gallery = () => {
     // Duplicate images for infinite loop

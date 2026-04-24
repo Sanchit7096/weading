@@ -12,6 +12,22 @@ const events = [
         color: "bg-orange-50"
     },
     {
+        title: "Mehendi Ceremony",
+        time: "4:00 PM onwards",
+        date: "May 04, 2026",
+        description: "Adorning the hands with beautiful henna patterns amidst music and joy.",
+        icon: <Music className="text-pink-600" />,
+        color: "bg-pink-50"
+    },
+    {
+        title: "Haldi Ceremony",
+        time: "9:00 AM onwards",
+        date: "May 05, 2026",
+        description: "A fun-filled ceremony of applying turmeric paste for a natural glow.",
+        icon: <Flower2 className="text-yellow-600" />,
+        color: "bg-yellow-50"
+    },
+    {
         title: "Batabarana",
         time: "8:00 PM",
         date: "May 06, 2026",
