@@ -6,7 +6,9 @@ const Footer = () => {
     return (
         <footer className="py-24 bg-[#FFF8F0] text-center relative overflow-hidden">
             {/* Top Divider */}
-            <div className="absolute top-0 left-0 w-full h-8 bg-[url('/assets/divider.png')] bg-repeat-x bg-contain opacity-30"></div>
+            <div className="absolute top-0 left-0 w-full h-8 flex items-center justify-center opacity-20">
+                <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-[#D4AF37] to-transparent"></div>
+            </div>
 
             <motion.div
                 initial={{ opacity: 0, y: 20 }}

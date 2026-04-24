@@ -22,7 +22,7 @@ function App() {
         <Hero />
         <ScratchCard />
         <Countdown />
-        <Gallery />
+        {/* <Gallery /> */}
         <Venue />
         <Schedule />
         <Footer />

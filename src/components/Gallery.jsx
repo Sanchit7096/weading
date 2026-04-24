@@ -1,16 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-import img1 from '../assets/DSC_1222.JPG.jpeg';
-import img2 from '../assets/DSC_1401.JPG.jpeg';
-import img3 from '../assets/DSC_1454.JPG.jpeg';
-import img4 from '../assets/DSC_1515.JPG.jpeg';
+import img1 from '../assets/DSC_1454.JPG.jpeg';
+import img2 from '../assets/DSC_1515.JPG.jpeg';
 
-const images = [img1, img2, img3, img4];
+const images = [img1, img2];
 
 const Gallery = () => {
-    // Duplicate images for infinite loop
-    const doubledImages = [...images, ...images];
+    // Multiply images to ensure smooth infinite loop even with few photos
+    const displayImages = [...images, ...images, ...images, ...images, ...images, ...images];
 
     return (
         <section className="py-24 bg-[#FFF8F0] relative overflow-hidden">
@@ -45,7 +43,7 @@ const Gallery = () => {
                     }}
                     style={{ width: "fit-content" }}
                 >
-                    {doubledImages.map((src, index) => (
+                    {displayImages.map((src, index) => (
                         <div
                             key={index}
                             className="relative w-48 h-64 md:w-64 md:h-80 rounded-2xl overflow-hidden shadow-xl bg-white border-2 border-white flex-shrink-0"

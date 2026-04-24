@@ -32,7 +32,7 @@ const Venue = () => {
 
                 <div className="relative w-full max-w-2xl mx-auto md:ml-auto rounded-2xl overflow-hidden shadow-[0_30px_60px_rgba(0,0,0,0.4)] border-4 border-[#FFF8F0]/20 aspect-video group">
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.5!2d72.8!3d21.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDEyJzAwLjAiTiA3MsKwNDgnMDAuMCJF!5e0!3m2!1sen!2sin!4v1713780000000!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3744.150731057564!2d84.56336737521156!3d19.38694438188565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDIzJzEzLjAiTiA4NMKwMzMnNTYuMCJF!5e0!3m2!1sen!2sin!4v1713950000000!5m2!1sen!2sin"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
@@ -44,7 +44,7 @@ const Venue = () => {
                     ></iframe>
 
                     <a
-                        href="https://maps.google.com"
+                        href="https://www.google.com/maps/place/19%C2%B023'13.0%22N+84%C2%B033'56.0%22E/@19.3869444,84.5655556,17z"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-auto md:top-4 md:left-4 md:translate-x-0 bg-white text-[#B71C1C] px-4 py-2 rounded-full flex items-center gap-2 text-xs font-bold shadow-lg hover:bg-white/90 transition-colors"
