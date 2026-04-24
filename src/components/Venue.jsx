@@ -44,7 +44,7 @@ const Venue = () => {
                     ></iframe>
 
                     <a
-                        href="https://www.google.com/maps/place/19%C2%B023'13.0%22N+84%C2%B033'56.0%22E/@19.3869444,84.5655556,17z"
+                        href="https://maps.app.goo.gl/ukmneKWPbW6E3iQj6?g_st=aw"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="absolute bottom-4 left-1/2 -translate-x-1/2 md:bottom-auto md:top-4 md:left-4 md:translate-x-0 bg-white text-[#B71C1C] px-4 py-2 rounded-full flex items-center gap-2 text-xs font-bold shadow-lg hover:bg-white/90 transition-colors"
